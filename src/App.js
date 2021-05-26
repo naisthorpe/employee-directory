@@ -1,11 +1,12 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Route } from "react-router-dom";
 import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import Search from "./components/Search";
 import EmployeeListTable from "./components/EmployeeListTable";
-import EmployeeListItem from "./components/EmployeeListItem";
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import EmployeeListItem from "./components/EmployeeListItem";
+
+
 import './App.css';
 
 function App() {
@@ -14,8 +15,11 @@ function App() {
       <Header />
       <Search />
       <EmployeeListTable />
-      <EmployeeListItem />
+      {/*
+          <EmployeeListItem /> */}
+
     </Wrapper>
+
   );
 }
 

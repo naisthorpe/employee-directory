@@ -1,8 +1,14 @@
 import React from "react";
 import "./style.css";
 
-function Header(props) {
-    return <h1 className="title">{props.children}</h1>;
+function Header() {
+    return (
+        <>
+            <h1 className="header">Employee Directory</h1>
+            <p className="subhead">Click column name to sort.</p>
+            <p className="search-head">Use search box to narrow results.</p>
+        </>
+    );
 }
 
 export default Header;
