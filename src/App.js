@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Search from "./components/Search";
 import EmployeeListTable from "./components/EmployeeListTable";
 import EmployeeListItem from "./components/EmployeeListItem";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
