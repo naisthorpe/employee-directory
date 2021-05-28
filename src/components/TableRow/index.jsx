@@ -2,13 +2,16 @@ import React from "react";
 import "./style.css";
 
 function TableRow(props) {
+
+    const name = `${props.name.first} ${props.name.last}`;
+
     return (
         <tr>
-            <td>{props.image}</td>
-            <td>{props.name}</td>
+            <td><img src={props.image} /></td>
+            <td>{name}</td>
             <td>{props.phone}</td>
             <td>{props.email}</td>
-            <td>{props.birth}</td>
+            <td>{props.dob}</td>
         </tr>
     )
 }
