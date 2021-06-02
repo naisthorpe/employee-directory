@@ -31,16 +31,24 @@ class Table extends Component {
     handleSubmit = event => {
         event.preventDefault();
         console.log(this.state.search);
+        // API.getUsers()
+        //     .then(res => {
+
+            // })
     }
 
-    handleSearch = event => {
+    handleSort = event => {
 
     }
 
     render() {
         return (
             <>
-                <Search handleChange={this.handleInputChange} handleSubmit={this.handleSubmit} search={this.state.search} />
+                <Search 
+                    handleChange={this.handleInputChange} 
+                    handleSubmit={this.handleSubmit} 
+                    handleSort={this.handleSort}
+                    search={this.state.search} />
                 <table className="table">
                     <thead>
                         <tr>
