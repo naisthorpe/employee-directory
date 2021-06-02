@@ -5,8 +5,8 @@ function Header() {
     return (
         <div className="header">
             <h1>Employee Directory</h1>
-            <p>Click column name to sort</p>
-            <p>Use search bar to filter</p>
+            <p>Search below by name</p>
+            <p>Click "Name" button to sort by last name</p>
         </div>
     );
 }
