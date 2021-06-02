@@ -1,25 +1,15 @@
-import React from "react";
-// import { BrowserRouter as Router, Route } from "react-router-dom";
-import Wrapper from "./components/Wrapper";
-import Header from "./components/Header";
-import Search from "./components/Search";
-import EmployeeListTable from "./components/EmployeeListTable";
-//import EmployeeListItem from "./components/EmployeeListItem";
-
-
 import './App.css';
+import Header from "./components/Header";
+import Wrapper from "./components/Wrapper";
+import Table from "./components/Table";
+//import API from "./utils/API";
 
 function App() {
   return (
     <Wrapper>
       <Header />
-      <Search />
-      <EmployeeListTable />
-      {/*
-          <EmployeeListItem /> */}
-
+      <Table />
     </Wrapper>
-
   );
 }
 
