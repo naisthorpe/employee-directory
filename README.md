@@ -22,7 +22,7 @@
 
   ## Deployed Link
 
-
+https://naisthorpe.github.io/employee-directory/
 
   ## Site Image
 
